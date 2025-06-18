@@ -22,39 +22,64 @@ This repository is organized into folders, with each folder corresponding to a c
 Here is a summary of the projects included in this repository. Each project includes a link to the corresponding Excel workbook.
 
 ### 1. 3-Statement Financial Model
-This project demonstrates the ability to build a fully integrated financial model connecting the Income Statement, Balance Sheet, and Cash Flow Statement. It serves as the foundation for all other financial analysis.
-* **Skills:** Financial statement integration, assumption-driven modeling, debt schedule, depreciation schedule, balancing the balance sheet.
+
+![image](https://github.com/user-attachments/assets/f0844e4e-6afe-4ebc-b328-9a64da9cdb94)
+
+This project demonstrates the ability to build a fully integrated and dynamic 5-year financial model. Starting with a standalone Income Statement forecast, the model was expanded to include a fully linked Balance Sheet and Cash Flow Statement, all driven by historical data and a core set of business assumptions.
+
+Key activities in this analysis included:
+
+* 📊 **Income Statement Forecasting:** Projected revenue and expense line items using a combination of explicit growth assumptions and historical trend analysis. This included constructing a detailed, bottom-up depreciation schedule from a capital expenditure log using advanced Excel formulas (`SUMIFS`, `EOMONTH`).
+
+* 🔗 **Balance Sheet Integration:** Forecasted asset and liability accounts by linking them to key drivers from the Income Statement, such as `Total Revenue Growth Rate` and `Total Expense Growth Rate`.
+  * Working capital accounts (e.g., Accounts Receivable, Accounts Payable) were projected based on their relationship to revenue and expenses.
+  * The Property, Plant & Equipment (PP&E) balance was rolled forward by subtracting the calculated depreciation expense each year.
+
+* 🌊 **Cash Flow Statement Construction:** Built the Cash Flow Statement from scratch using the indirect method.
+  * Started with Net Income and added back non-cash charges like Depreciation.
+  * Calculated the cash impact from Changes in Working Capital by analyzing the year-over-year changes in the forecasted Balance Sheet accounts.
+
+* ⚖️ **Balancing the Model:** Completed the final loop of the model by linking the `Ending Cash Balance` from the Cash Flow Statement back to the Cash account on the Balance Sheet. A balancing check was created and used to ensure `Total Assets = Total Liabilities & Equity`, which successfully validated the model's integrity and helped identify a formula error for correction.
+
+* **Skills:** Financial Forecasting, 3-Statement Integration, Assumption-Driven Modeling, Working Capital Analysis, Depreciation & CapEx Scheduling, Cash Flow Reconciliation, Model Auditing & Balancing, Advanced Excel Formulas.
 * **[➡️ View the 3-Statement Model.xlsx](./Financial_Modeling/3_Statement_Model.xlsx)**
 
-### 2. Budget vs. Actual (BvA) Variance Analysis
-This analysis compares actual financial results to the budgeted figures. The model breaks down variances to identify the root causes of over or underperformance.
+### 2. Budget vs. Actual (BvA) Variance Analysis 🚧
+This project demonstrates the critical FP&A function of variance analysis. The model compares monthly actual results to the annual budget, breaking down revenue and cost variances to provide actionable insights into business performance. The goal is to move beyond what happened to explain why it happened.
 * **Skills:** Data consolidation, variance calculation (price, volume, mix), commentary preparation, performance reporting.
-* **[➡️ View the BvA Variance Analysis.xlsx](./Variance_Analysis/BvA_Analysis.xlsx)**
+* **Status:** 🚧 Coming Soon
 
-### 3. Rolling Forecast Model
+### 3. Rolling Forecast Model 🚧
 This model demonstrates the creation of a rolling forecast, which continuously updates the financial outlook as new actual data becomes available.
 * **Skills:** Forecasting methodologies, scenario planning, updating models with actuals, timeline management.
-* **[➡️ View the Rolling Forecast.xlsx](./Forecasting/Rolling_Forecast.xlsx)**
+* **Status:** 🚧 Coming Soon
 
-### 4. Headcount and Payroll Planning
+### 4. Headcount and Payroll Planning 🚧
 This project involves building a detailed model to forecast payroll expenses, one of the largest operational costs for many companies.
 * **Skills:** Bottom-up forecasting, headcount reconciliation, modeling salaries, bonuses, and benefits.
-* **[➡️ View the Headcount_Planning.xlsx](./Operational_Planning/Headcount_Planning.xlsx)**
+* **Status:** 🚧 Coming Soon
 
-### 5. FP&A KPI Dashboard
+### 5. FP&A KPI Dashboard 🚧
 This Excel dashboard provides a high-level overview of the company's financial health by tracking key performance indicators (KPIs).
 * **Skills:** Data visualization, dashboard design, pivot tables, charts, linking to source data.
-* **[➡️ View the KPI_Dashboard.xlsx](./Dashboards/KPI_Dashboard.xlsx)**
+* **Status:** 🚧 Coming Soon
 
-### 6. SaaS Metrics & Cohort Analysis
+### 6. SaaS Metrics & Cohort Analysis 🚧
 This model is specific to SaaS businesses and demonstrates an understanding of key industry metrics and cohort-based analysis.
 * **Skills:** Calculating ARR/MRR, Customer Lifetime Value (LTV), Customer Acquisition Cost (CAC), churn analysis.
-* **[➡️ View the SaaS_Metrics.xlsx](./SaaS_Analysis/SaaS_Metrics.xlsx)**
+* **Status:** 🚧 Coming Soon
 
 ## 🛠️ Tools & Technologies
 
 * **Microsoft Excel:** Advanced Formulas, Pivot Tables, Charts & Graphs, Power Query, Financial Modeling Best Practices.
 * **Git & GitHub:** Version control and portfolio hosting.
+
+## 🚀 Future Enhancements
+
+I plan to continue expanding this portfolio with additional analyses, including:
+* Building a more complex model incorporating scenario analysis (e.g., Monte Carlo simulation).
+* Connecting Excel to an external data source (like a SQL database) using Power Query for automated data refreshes.
+* Replicating one of these dashboards in a dedicated BI tool like Power BI or Tableau.
 
 ## 📞 About & Contact
 
