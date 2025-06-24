@@ -17,6 +17,11 @@ The goal of this portfolio is to showcase my hands-on experience with the tools 
 
 This repository is organized into folders, with each folder corresponding to a core FP&A concept. Inside each folder, you will find the relevant Microsoft Excel file(s) for that topic.
 
+## 🚀 Project Navigation
+
+* [1. 3-Statement Financial Model](#1-3-statement-financial-model)
+* [2. Event Profitability and Revenue Forecast](#2-event-profitability-and-revenue-forecast)
+
 ## 📈 Projects & Analyses
 
 Here is a summary of the projects included in this repository. Each project includes a link to the corresponding Excel workbook.
@@ -63,7 +68,9 @@ Key activities in this analysis included:
 - **[➡️ View the Base Model (Before).xlsx](./Financial_Modeling/3_Statement_Model_Base.xlsx)** - The historical data and starting template.
 - **[➡️ View the Completed Model (After).xlsx](./Financial_Modeling/3_Statement_Model_Completed.xlsx)** - The fully integrated 5-year forecast.
 
-### 2. Event Profitability & Revenue Forecast
+### 2. Event Profitability and Revenue Forecast
+
+![image](https://github.com/user-attachments/assets/a081d4f5-90fc-4a31-829d-f5fa479f2989)
 
 This project involves building a driver-based revenue forecast from scratch to assess the profitability of a proposed event. Starting with historical sales data and a list of fixed costs, the analysis projects ticket and concession revenue to build a pro-forma Profit & Loss statement, culminating in a clear "go/no-go" recommendation based on the projected net margin.
 
@@ -109,7 +116,7 @@ This Excel dashboard provides a high-level overview of the company's financial h
 - **Skills:** Data visualization, dashboard design, pivot tables, charts, linking to source data.
 - **Status:** 🚧 Coming Soon
 
-### 7. SaaS Metrics & Cohort Analysis 🚧
+### 7. SaaS Metrics and Cohort Analysis 🚧
 
 This model is specific to SaaS businesses and demonstrates an understanding of key industry metrics and cohort-based analysis.
 
@@ -125,9 +132,10 @@ This model is specific to SaaS businesses and demonstrates an understanding of k
 
 I plan to continue expanding this portfolio with additional analyses, including:
 
-- Building a more complex model incorporating scenario analysis (e.g., Monte Carlo simulation).
-- Connecting Excel to an external data source (like a SQL database) using Power Query for automated data refreshes.
-- Replicating one of these dashboards in a dedicated BI tool like Power BI or Tableau.
+* **Advanced Modeling:** Incorporate scenario and sensitivity analysis into existing models to show how changes in key assumptions impact financial outcomes.
+* **Automation & BI:** Re-architect a model to pull historical data directly from a SQL database using Power Query, creating an automated, end-to-end data pipeline.
+* **Valuation Analysis:** Add a Discounted Cash Flow (DCF) valuation module to the 3-Statement Model to determine the company's intrinsic value.
+* **BI Dashboard Replication:** Replicate one of the Excel dashboards in a dedicated BI tool like Power BI or Tableau to showcase advanced data visualization skills.
 
 ## 📞 About & Contact
 
