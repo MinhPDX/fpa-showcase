@@ -23,9 +23,23 @@ Here is a summary of the projects included in this repository. Each project incl
 
 ### 1. 3-Statement Financial Model
 
-![image](https://github.com/user-attachments/assets/f0844e4e-6afe-4ebc-b328-9a64da9cdb94)
+![image](https://github.com/user-attachments/assets/d2a17d8c-6d82-4537-bf93-79199185cd17)
 
-This project demonstrates the ability to build a fully integrated and dynamic 5-year financial model. Starting with a standalone Income Statement forecast, the model was expanded to include a fully linked Balance Sheet and Cash Flow Statement, all driven by historical data and a core set of business assumptions.
+This project showcases a dynamic and fully integrated 5-year, 3-statement financial model built from the ground up. The model begins with historical data and a set of core assumptions to drive a detailed forecast of the Income Statement, Balance Sheet, and Cash Flow Statement, demonstrating a comprehensive understanding of business drivers and financial reporting.
+
+#### Scenario & Key Assumptions
+To provide a realistic context for the model, it's based on a scenario for a hypothetical high-growth service company planning for significant expansion. The core assumptions driving the 5-year forecast (2025-2029) are outlined below:
+
+* **📈 Revenue Growth & Drivers:** Modeled a strong `+20%` annual revenue increase, reflecting a significant pipeline of new clients. Other asset accounts, such as "Other Current Assets," were assumed to grow in line with this top-line expansion.
+* **💼 Operating Expense Structure:**
+    * **Cost of Goods Sold** was modeled as a variable expense, directly tied to sales revenue.
+    * **Salaries & Wages** were projected to grow by `+15%` annually to account for the necessary headcount increase to service a larger client base.
+    * **Supporting Growth Costs** like Professional Fees (`+20%`) and Advertising (`+10%`) were forecast to grow steadily to support operational scale and build brand recognition.
+* **🏗️ Capital & Financing Assumptions:**
+    * The forecast isolates the company's organic operational performance by assuming **no new Capital Expenditures** and **no additional Equity Injections** over the period.
+    * **Depreciation and Amortization** are calculated based on the existing Capital Expenditure schedule, flowing directly from the starting Balance Sheet.
+
+This framework of assumptions creates an integrated and logical foundation for the entire 3-statement model.
 
 Key activities in this analysis included:
 
