@@ -8,10 +8,6 @@ The goal of this portfolio is to showcase my hands-on experience with the tools 
 
 - **Financial Modeling:** Building dynamic and integrated 3-statement financial models (Income Statement, Balance Sheet, Cash Flow Statement) from scratch.
 - **Budgeting & Forecasting:** Creating detailed annual budgets and developing rolling forecasts to predict future performance.
-- **Variance Analysis:** Performing Budget vs. Actual (BvA) analysis to understand key business drivers and deviations from the plan.
-- **KPI & Dashboarding:** Identifying key performance indicators (KPIs) and building dashboards in Excel to visualize financial data and business trends.
-- **Headcount & OpEx Planning:** Forecasting operational expenses, including detailed payroll and headcount planning.
-- **SaaS Metrics Analysis:** Understanding and modeling key metrics for Software-as-a-Service businesses (e.g., ARR, Churn, LTV, CAC).
 
 ## 📂 Repository Structure
 
