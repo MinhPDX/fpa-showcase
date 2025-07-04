@@ -15,8 +15,8 @@ This repository is organized into folders, with each folder corresponding to a c
 
 ## 🚀 Project Navigation
 
-* [1. 3-Statement Financial Model](#1-3-statement-financial-model)
-* [2. Event Profitability and Revenue Forecast](#2-event-profitability-and-revenue-forecast)
+- [1. 3-Statement Financial Model](#1-3-statement-financial-model)
+- [2. Event Profitability and Revenue Forecast](#2-event-profitability-and-revenue-forecast)
 
 ## 📈 Projects & Analyses
 
@@ -68,7 +68,7 @@ Key activities in this analysis included:
 
 ![image](https://github.com/user-attachments/assets/a081d4f5-90fc-4a31-829d-f5fa479f2989)
 
-This project involves building a driver-based revenue forecast from scratch to assess the profitability of a proposed event. Starting with historical sales data and a list of fixed costs, the analysis projects ticket and concession revenue to build a pro-forma Profit & Loss statement, culminating in a clear "go/no-go" recommendation based on the projected net margin.
+This project involves building a driver-based revenue forecast from scratch to assess the profitability of a proposed event. Starting with historical sales data and a list of fixed costs, the analysis projects ticket and concession revenue to build a pro forma Profit & Loss statement, culminating in a clear "go/no-go" recommendation based on the projected net margin.
 
 #### Scenario & Key Activities
 
@@ -78,6 +78,10 @@ The model is built for a hypothetical scenario: an event committee needs to dete
 - **Attendance & Ticket Revenue Forecasting:** Forecasted the number of event attendees by applying an average historical participation rate to the total student population. Projected ticket price based on a consistent historical growth rate to determine total ticket revenue.
 - **Concession Revenue Forecasting:** Modeled concession sales volume for various items as a percentage of total event attendees. Forecasted sales price and cost per unit based on historical trends to calculate total concession revenue and cost of goods sold.
 - **P&L Construction & Profitability Analysis:** Consolidated the revenue forecasts and fixed operating expenses into a simple P&L statement. Calculated Gross Profit, Net Profit, and Net Margin to provide a clear view of the event's viability.
+
+### 🏁 Conclusion & Recommendation
+
+Based on the analysis, the clear recommendation is a **"Go"** for the event. The pro forma P&L projects a healthy **net margin of 32%**, indicating strong profitability. This level of profitability not only ensures financial success but also provides a significant financial cushion against unforeseen costs and generates substantial funds for the committee's future activities.
 
 **Skills Demonstrated:** Driver-Based Forecasting, Profitability Analysis, P&L Construction, Trend Analysis, Assumption Documentation, Data-driven Decision Making, Excel (`AVERAGE`, `SUMPRODUCT`).
 
@@ -93,10 +97,10 @@ The model is built for a hypothetical scenario: an event committee needs to dete
 
 I plan to continue expanding this portfolio with additional analyses, including:
 
-* **Advanced Modeling:** Incorporate scenario and sensitivity analysis into existing models to show how changes in key assumptions impact financial outcomes.
-* **Automation & BI:** Re-architect a model to pull historical data directly from a SQL database using Power Query, creating an automated, end-to-end data pipeline.
-* **Valuation Analysis:** Add a Discounted Cash Flow (DCF) valuation module to the 3-Statement Model to determine the company's intrinsic value.
-* **BI Dashboard Replication:** Replicate one of the Excel dashboards in a dedicated BI tool like Power BI or Tableau to showcase advanced data visualization skills.
+- **Advanced Modeling:** Incorporate scenario and sensitivity analysis into existing models to show how changes in key assumptions impact financial outcomes.
+- **Automation & BI:** Re-architect a model to pull historical data directly from a SQL database using Power Query, creating an automated, end-to-end data pipeline.
+- **Valuation Analysis:** Add a Discounted Cash Flow (DCF) valuation module to the 3-Statement Model to determine the company's intrinsic value.
+- **BI Dashboard Replication:** Replicate one of the Excel dashboards in a dedicated BI tool like Power BI or Tableau to showcase advanced data visualization skills.
 
 ## 📞 About & Contact
 
