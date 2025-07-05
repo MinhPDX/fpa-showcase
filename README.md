@@ -6,8 +6,9 @@ The goal of this portfolio is to showcase my hands-on experience with the tools 
 
 ## ✨ Core Skills Demonstrated
 
-- **Financial Modeling:** Building dynamic and integrated 3-statement financial models (Income Statement, Balance Sheet, Cash Flow Statement) from scratch.
-- **Budgeting & Forecasting:** Creating detailed annual budgets and developing rolling forecasts to predict future performance.
+-   **Financial Modeling:** Building dynamic and integrated 3-statement financial models (Income Statement, Balance Sheet, Cash Flow Statement) from scratch.
+-   **Capital Budgeting & DCF Analysis:** Evaluating the financial viability of major capital projects using Discounted Cash Flow (DCF) modeling. This includes building long-term forecasts based on public data and strategic assumptions to calculate project returns (NPV, IRR) and support investment decisions.
+-   **Budgeting & Forecasting:** Creating detailed annual budgets and developing rolling forecasts to predict future performance.
 
 ## 📂 Repository Structure
 
@@ -17,6 +18,7 @@ This repository is organized into folders, with each folder corresponding to a c
 
 - [1. 3-Statement Financial Model](#1-3-statement-financial-model)
 - [2. Event Profitability and Revenue Forecast](#2-event-profitability-and-revenue-forecast)
+- [3. Port of Portland - T6 Capital Project Feasibility Analysis](#3-port-of-portland---t6-capital-project-feasibility-analysis)
 
 ## 📈 Projects & Analyses
 
@@ -26,7 +28,7 @@ Here is a summary of the projects included in this repository. Each project incl
 
 ![image](https://github.com/user-attachments/assets/d2a17d8c-6d82-4537-bf93-79199185cd17)
 
-This project showcases a dynamic and fully integrated 5-year, 3-statement financial model built from the ground up. The model begins with historical data and a set of core assumptions to drive a detailed forecast of the Income Statement, Balance Sheet, and Cash Flow Statement, demonstrating a comprehensive understanding of business drivers and financial reporting.
+This project showcases a dynamic and fully integrated 5-year, 3-statement financial model built from the ground up. The model begins with historical data of a fictional company and a set of core assumptions to drive a detailed forecast of the Income Statement, Balance Sheet, and Cash Flow Statement, demonstrating a comprehensive understanding of business drivers and financial reporting.
 
 #### Scenario & Key Assumptions
 
@@ -68,7 +70,7 @@ Key activities in this analysis included:
 
 ![image](https://github.com/user-attachments/assets/a081d4f5-90fc-4a31-829d-f5fa479f2989)
 
-This project involves building a driver-based revenue forecast from scratch to assess the profitability of a proposed event. Starting with historical sales data and a list of fixed costs, the analysis projects ticket and concession revenue to build a pro forma Profit & Loss statement, culminating in a clear "go/no-go" recommendation based on the projected net margin.
+This project involves building a driver-based revenue forecast from scratch to assess the profitability of a proposed event for fictional companies. Starting with historical sales data and a list of fixed costs, the analysis projects ticket and concession revenue to build a pro forma Profit & Loss statement, culminating in a clear "go/no-go" recommendation based on the projected net margin.
 
 #### Scenario & Key Activities
 
@@ -89,6 +91,8 @@ Based on the analysis, the clear recommendation is a **"Go"** for the event. The
 - **[➡️ View the Completed Forecast (After).xlsx](./Revenue_Forecasting/Event_Forecast_Completed.xlsx)** - The completed forecast and profitability analysis.
 
 ### 3. Port of Portland - T6 Capital Project Feasibility Analysis
+
+![image](https://github.com/user-attachments/assets/9ab45eae-cfbd-4612-b8bd-7fc4242f6660)
 
 This project demonstrates a real-world capital budgeting analysis for a major infrastructure investment. Using publicly available financial documents from the Port of Portland, I built a 15-year Discounted Cash Flow (DCF) model from scratch to evaluate the financial viability of a proposed $21 million capital improvement project for Marine Terminal 6 (T6). The analysis culminates in a clear recommendation based on key financial metrics like Net Present Value (NPV), Internal Rate of Return (IRR), and Payback Period.
 
