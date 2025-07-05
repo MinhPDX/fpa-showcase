@@ -88,6 +88,39 @@ Based on the analysis, the clear recommendation is a **"Go"** for the event. The
 - **[➡️ View the Base Data (Before).xlsx](./Revenue_Forecasting/Event_Forecast_Base.xlsx)** - The historical data and list of fixed costs.
 - **[➡️ View the Completed Forecast (After).xlsx](./Revenue_Forecasting/Event_Forecast_Completed.xlsx)** - The completed forecast and profitability analysis.
 
+### 3. Port of Portland - T6 Capital Project Feasibility Analysis
+
+This project demonstrates a real-world capital budgeting analysis for a major infrastructure investment. Using publicly available financial documents from the Port of Portland, I built a 15-year Discounted Cash Flow (DCF) model from scratch to evaluate the financial viability of a proposed $21 million capital improvement project for Marine Terminal 6 (T6). The analysis culminates in a clear recommendation based on key financial metrics like Net Present Value (NPV), Internal Rate of Return (IRR), and Payback Period.
+
+#### Scenario & Key Activities
+
+The scenario is based on the Port of Portland's real-world strategic goals outlined in their FY 2025-26 Adopted Budget. The Port is planning significant investments to stabilize and grow container service at Terminal 6, and this model assesses the financial return of that proposed investment.
+
+- **📄 Data Sourcing & Extraction:** Sourced all primary data from the Port of Portland's public **[Finance & Statistics page](https://www.portofportland.com/FinanceAndStatistics)**, including the **FY 2025-26 Adopted Budget** and the **Annual Marine Terminal Statistics Report**.
+
+- **📝 Assumption Development:** Developed a comprehensive set of assumptions to drive the 15-year forecast.
+
+  - **Capital Expenditure:** The initial investment of **$21 million** was taken directly from the Port's budgeted capital projects list.
+  - **Revenue Forecasting:** The forecast was anchored to a real-world baseline using the most recent historical container volume (TEUs). The initial growth rate of **5.1%** was taken directly from the Port's budget forecast, followed by a tapered growth assumption for future years to reflect a realistic project lifecycle.
+  - **Cost Structure:** Modeled variable operating costs as a percentage of revenue (40%) and estimated fixed costs for maintenance and administration as a percentage of the initial capital investment (2.5%).
+  - **Discount Rate (WACC):** Calculated a Weighted Average Cost of Capital (WACC) of **7.65%** to serve as the project's discount rate, based on assumed financing structure and market rates.
+
+- **🌊 DCF Model Construction:** Built a detailed 15-year financial model that forecasted revenue, operating costs, and taxes to calculate the project's **Unlevered Free Cash Flow (UFCF)** for each year.
+
+- **⚖️ Financial Evaluation & Recommendation:** Calculated the key financial metrics to determine the project's viability.
+  - The project yields a strongly positive **Net Present Value (NPV) of $128.4 million**.
+  - The **Internal Rate of Return (IRR) is 70.53%**, which is substantially higher than the 7.65% WACC.
+  - The initial investment is recovered quickly, with a **Payback Period of 2 years**.
+
+#### 🏁 Conclusion & Recommendation
+
+The financial metrics provide a clear and decisive result. With a massively positive NPV and an IRR that is nearly 10x the cost of capital, the model indicates that the project is not only financially viable but exceptionally profitable. The recommendation is a strong **"Go"** for the Terminal 6 improvement project.
+
+**Skills Demonstrated:** Discounted Cash Flow (DCF) Modeling, Net Present Value (NPV) & Internal Rate of Return (IRR) Analysis, Capital Budgeting, Financial Forecasting, Assumption Development, Data Sourcing, Python, PDF Data Extraction, Financial Statement Analysis.
+
+- **[➡️ View the Source Documents](./Capital_Budgeting/data/)** - The source PDF reports.
+- **[➡️ View the Completed Financial Model](./Capital_Budgeting/Port_of_Portland_-_T6_DCF_Model.xlsx)** - The completed 15-year DCF model.
+
 ## 🛠️ Tools & Technologies
 
 - **Microsoft Excel:** Advanced Formulas, Pivot Tables, Charts & Graphs, Power Query, Financial Modeling Best Practices.
@@ -98,9 +131,8 @@ Based on the analysis, the clear recommendation is a **"Go"** for the event. The
 I plan to continue expanding this portfolio with additional analyses, including:
 
 - **Advanced Modeling:** Incorporate scenario and sensitivity analysis into existing models to show how changes in key assumptions impact financial outcomes.
-- **Automation & BI:** Re-architect a model to pull historical data directly from a SQL database using Power Query, creating an automated, end-to-end data pipeline.
-- **Valuation Analysis:** Add a Discounted Cash Flow (DCF) valuation module to the 3-Statement Model to determine the company's intrinsic value.
-- **BI Dashboard Replication:** Replicate one of the Excel dashboards in a dedicated BI tool like Power BI or Tableau to showcase advanced data visualization skills.
+- **Business Intelligence Integration:** Replicate the Capital Budgeting model's final analysis in a dedicated BI tool like Power BI or Tableau, creating an interactive dashboard to showcase advanced data visualization skills.
+- **Database Integration:** Re-architect a model to pull historical data directly from a SQL database using Power Query, demonstrating end-to-end data pipeline management.
 
 ## 📞 About & Contact
 
